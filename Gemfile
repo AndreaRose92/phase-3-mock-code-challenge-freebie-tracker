@@ -23,3 +23,5 @@ gem "require_all"
 gem "pry"
 
 gem 'faker', '~> 1.6', '>= 1.6.6'
+
+gem 'activerecord-reset-pk-sequence', '~> 0.2.0'

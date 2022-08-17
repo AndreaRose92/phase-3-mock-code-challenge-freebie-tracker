@@ -6,6 +6,7 @@ GEM
     activerecord (6.1.4)
       activemodel (= 6.1.4)
       activesupport (= 6.1.4)
+    activerecord-reset-pk-sequence (0.2.1)
     activesupport (6.1.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
@@ -51,6 +52,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (~> 6.1)
+  activerecord-reset-pk-sequence (~> 0.2.0)
   faker (~> 1.6, >= 1.6.6)
   pry
   rake
