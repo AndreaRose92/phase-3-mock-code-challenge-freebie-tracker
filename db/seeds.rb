@@ -29,7 +29,7 @@ puts "Creating freebies..."
 # Freebie.create(item_name: "PS5", value: 600, company_id: Company.all.sample.id, dev_id: Dev.all.sample.id)
 
 20.times do
-    Freebie.create(item_name: Faker::Commerce.product_name, value: Faker::Number.between(from = 1, to = 5000), company_id: Faker::Number.between(from = 1, to = Company.all.length), dev_id: Faker::Number.between(from = 1, to = Dev.all.length))
+    Freebie.create(item_name: Faker::Commerce.product_name, value: Faker::Number.between(from = 1, to = 5000), company_id: Faker::Number.between(from = 1, to = Company.all.size), dev_id: Faker::Number.between(from = 1, to = Dev.all.size))
 end
 
 
